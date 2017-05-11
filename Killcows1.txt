@@ -1,0 +1,12 @@
+for t = 1,6 do
+for x = 1,8 do
+  turtle.forward()
+  turtle.attackDown()
+end
+for y = 1,8 do
+  turtle.back()
+end
+turtle.turnLeft()
+turtle.forward()
+turtle.turnRight()
+end
