@@ -24,9 +24,7 @@ while ItemCount =<10 then
 end
 --This is to get my turtle back to its starting position after having completed its route of the area
 turtle.turnRight()
-turtle.forward()
-turtle.forward()
-turtle.forward()
-turtle.forward()
-turtle.forward()
+for m = 1 to move do
+  turtle.forward()
+end
 turtle.turnLeft()
